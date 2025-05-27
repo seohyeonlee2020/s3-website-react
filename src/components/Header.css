@@ -1,0 +1,45 @@
+header {
+	position: sticky;
+		top: 0;
+		z-index: 100;
+}
+
+.header-container {
+	font-family: montserrat, sans-serif;
+	display: flex;
+	width: 37.5%;
+	height: 13vh;
+
+	align-items: center;
+	margin: 20px;
+}
+
+.header-container a{
+	color:#2b4047;
+}
+
+
+#logo {
+	object-fit: cover;
+	width: 10vh;
+	height: auto;
+}
+
+header ul{
+	font-size: 18px;
+	width: calc(100% + 8px);
+	align-items: left;
+	display: flex;
+	flex-direction: row;
+
+}
+
+ header li{
+	list-style-type: none;
+	margin: 0px 4px;
+	padding: 10px;
+ }
+
+ header li:hover{
+	text-decoration: underline;
+ }
