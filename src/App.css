@@ -23,6 +23,7 @@
 	line-height: 1.5;
 	/* 5. Improve text rendering */
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Montserrat', 'sans-serif';
   }
 
   /* 6. Improve media defaults */
