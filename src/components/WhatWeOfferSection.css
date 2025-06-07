@@ -1,0 +1,18 @@
+.sustainability-section {
+  background-color: #e8f1f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sustainability-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e2a38;
+  margin-bottom: 40px;
+}
+
+.sustainability-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,94 @@
+.team-card {
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 1.25rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.team-name {
+     color: #1e2a38;
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin-top: 0.9375rem;
+  word-wrap: break-word;
+}
+
+.team-college {
+  font-style: italic;
+  color: #444;
+  margin: 0.625rem 0;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.team-department {
+  color: #333;
+  font-size: 1.125rem;
+  word-wrap: break-word;
+}
+
+@media (max-width: 480px) {
+  .team-card {
+    margin: 0.625rem;
+    max-width: 100%;
+  }
+}
+
+
+/* for team section */
+
+.team-section-wrapper {
+  background-color: #f0f8ff;
+  padding: 3.125rem 1.25rem;
+}
+
+.team-heading {
+    color: #1e2a38;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team-heading::after {
+  content: '';
+  display: block;
+  margin: 0.625rem auto 0;
+  width: 5rem;
+  height: 0.25rem;
+  /* background-color: #007BFF;
+  border-radius: 0.125rem; */
+}
+
+.team-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .team-heading {
+    font-size: 1.75rem;
+  }
+  
+  .team-cards-container {
+    gap: 1rem;
+  }
+}
