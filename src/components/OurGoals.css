@@ -1,0 +1,39 @@
+.goals-section {
+  background-color: #3b6f5e; /* Dark green background */
+  color: #d8f8f1; /* Pale aqua text */
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.goals-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.goals-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.goal-item {
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goal-icon {
+  font-size: 80px;
+  margin-bottom: 30px;
+  color: #d8f8f1;
+}
+
+.goal-text {
+  font-size: 18px;
+  line-height: 1.6;
+}

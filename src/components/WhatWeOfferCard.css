@@ -1,0 +1,79 @@
+.sustainability-card {
+  background-color: #3e7157;
+  color: #ffffff;
+  padding: 2.5rem 1.875rem;
+  border-radius: 1.5625rem;
+  text-align: center;
+  width: 100%;
+  max-width: 31.25rem;
+  margin: 1.25rem auto;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sustainability-card:hover {
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+  font-size: 3.75rem;
+  color: #d3f1e4;
+  margin-bottom: 1.25rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.9375rem;
+}
+
+.card-text {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sustainability-card {
+    padding: 2rem 1.5rem;
+    border-radius: 1.25rem;
+    max-width: 28rem;
+  }
+  
+  .card-icon {
+    font-size: 3rem;
+  }
+  
+  .card-title {
+    font-size: 1.125rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sustainability-card {
+    padding: 1.5rem 1.25rem;
+    border-radius: 1rem;
+    margin: 1rem auto;
+  }
+  
+  .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-text {
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+}

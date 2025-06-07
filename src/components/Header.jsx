@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -8,9 +9,13 @@ const Header = () => {
 					<img id="logo" src="src/assets/images/logo_s3.png" alt="s3 logo"></img>
 					<nav>
 						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Schedule</a></li>
-							<li><a href="#">About Us</a></li>
+							<Link to="/">Home</Link>
+							
+							<Link to="/schedule">Schedule</Link>
+
+							<Link to="/about">About Us</Link>
+							
+						
 						</ul>
 					</nav>
 				</div>
