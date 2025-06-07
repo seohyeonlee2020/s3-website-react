@@ -20,7 +20,7 @@ const Footer = () => {
 					<div className='middle'></div>
 
 					<div className='right-blocks'>
-						<span>Designed by UF Gator User Design</span>
+						<span id='credit'>Designed by UF Gator User Design</span>
 					</div>
 				</div>
 			</footer>

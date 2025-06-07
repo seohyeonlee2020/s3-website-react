@@ -10,6 +10,33 @@ footer{
 .footer-container{
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.footer-container{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+
+	footer{
+		font-size: 1.125rem;
+	}
+
+	.footer-container{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
 
 }
 
@@ -37,10 +64,11 @@ img {
 
 .right-blocks{
 	font-size: 16px;
-	position: right;
+
 	margin-right: 20px;
 	text-align: right;
 }
+
 
 footer ul {
 	display: flex;
@@ -50,3 +78,4 @@ footer ul {
 footer li {
 	list-style-type: none;
 }
+
